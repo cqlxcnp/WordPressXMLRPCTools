@@ -1,4 +1,4 @@
-from wordpress_xmlrpc import Client, WordPressPostlink
+from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost, EditPost
 from urllib.parse import urlparse
 import frontmatter
